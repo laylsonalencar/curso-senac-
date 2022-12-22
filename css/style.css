@@ -1,0 +1,96 @@
+/*   Comentario CSS */
+
+/* Reset CSS */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Conteudo da pagina Index.html*/
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    background: rgb(230, 230, 234);
+    display: flex;
+    flex-direction: column;
+     
+  
+}
+#instagram{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+h1{
+    font-size: 50pt;
+}
+.logo  {
+    width: 100px;  
+
+}
+
+.menuIndex{
+     background-image: url(/img/tacos-delicious.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;     
+    background: rgba(6, 4, 4, 0.7) url(/img/tacos-delicious.gif) center no-repeat;     
+    background-blend-mode: darken;
+    background-size: cover;
+     padding: 40px 400px;
+     justify-content: center;
+     align-content: center;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+    
+     
+}
+
+#produto2{
+    background-color: blueviolet;
+}
+#produto1{
+
+    background: rgb(131,58,180);
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+   
+color: aliceblue;
+}
+.cortexto{
+    color: white;
+
+}
+a{
+    color: rgb(238, 238, 17);
+
+}
+.textoLogo{
+    color: rgb(238, 238, 17);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -25px;
+}
+
+
+/* COnteudo da pagina Sobre.html*/
+.menuSobre{
+    background-color: black;
+}
+ul{
+   text-align: left;
+    width: 200px;
+}
+
+/* COnteudo da pagina Contato.html*/
+.menuContato{
+    background-color: cadetblue;
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    height: 2000px;
+    padding-top: 60px;
+    padding-left: 100px;
+
+}
+header{
+    background-color: black;
+    color: azure;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:0 ;
+
+
+}
+
+.lateral{
+    background-color: aqua;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 90px;
+}
+.absoluto{
+    background-color: brown;
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60px;
+
+}
+
+.div1{
+    background-color: antiquewhite;
+    color: antiquewhite;
+    height: 100px;
+    width: 100px;
+    position:static ;
+    left: 10px;
+
+}
+
+.div2{
+    background-color: blueviolet;
+    color: blueviolet;
+    height: 100px;
+    width: 100px;
+    position:relative ;
+    left: 10px;
+
+}

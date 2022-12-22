@@ -1,0 +1,35 @@
+.conteinner{
+    background-color: rgb(162, 159, 159);
+    height: 100px;
+    width: 300px;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     align-items: center;
+}
+
+.item{
+    margin: 5px;
+    background-color: aquamarine;
+   
+
+}
+.item1{
+    margin: 5px;
+    background-color: rgb(195, 125, 21);
+    height: 100px;
+
+}
+
+.item2{
+    margin: 5px;
+    background-color: rgb(195, 21, 143);
+    height: 50px;
+}
+
+.item3{
+    margin: 5px;
+    background-color: rgb(51, 5, 111);
+    height: 30px;
+}
