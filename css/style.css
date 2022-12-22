@@ -17,6 +17,7 @@ body{
     background: rgb(230, 230, 234);
     display: flex;
     flex-direction: column;
+    background-color: rgb(197, 244, 228);
      
   
 }
@@ -52,18 +53,43 @@ h1{
 }
 
 #produto2{
-    background-color: blueviolet;
-}
-#produto1{
-
-    background: rgb(131,58,180);
+    align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 30vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: black;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgba(120, 226, 226, 0.562);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+#produto1{
+
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid black ;
+    border-radius: 20px;
+    padding: 30px;
+    color: rgb(8, 9, 9);
+    background-color: rgba(120, 226, 226, 0.562);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
    
-color: aliceblue;
+
+
+.produtos{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
 }
 .cortexto{
     color: white;
@@ -93,4 +119,22 @@ ul{
 /* COnteudo da pagina Contato.html*/
 .menuContato{
     background-color: cadetblue;
+}
+footer{
+    background-image: url(/img/tacos-delicious.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;     
+    background: rgba(6, 4, 4, 0.7) url(/img/tacos-delicious.gif) center no-repeat;     
+    background-blend-mode: darken;
+    background-size: cover;
+     padding: 40px 400px;
+     justify-content: center;
+     align-content: center;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+    color: yellow;
+    font-size: 14pt;
+
 }
